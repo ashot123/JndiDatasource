@@ -5,6 +5,22 @@
          version="4.0">
 
     <description>MySQL Test App</description>
+
+    <welcome-file-list>
+        <welcome-file>Demo.do</welcome-file>
+    </welcome-file-list>
+
+
+<!--    <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>test.TestController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>/Test.do</url-pattern>
+    </servlet-mapping>-->
+
+
     <resource-ref>
         <description>DB Connection</description>
         <res-ref-name>jdbc/TestDB</res-ref-name>
